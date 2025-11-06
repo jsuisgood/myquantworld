@@ -1,0 +1,1581 @@
+2025-11-05 20:08:42,134 - __main__ - INFO - [main.<module>:24] - Project root directory: E:\workspace\myquantworld
+2025-11-05 20:08:42,135 - __main__ - INFO - [main.<module>:25] - Project root is in Python path: True
+2025-11-05 20:08:45,963 - __main__ - INFO - [main.startup_event:630] - 股票分析API服务启动中...
+2025-11-05 20:08:45,964 - __main__ - INFO - [main.startup_event:634] - 正在初始化加载所有A股股票代码...
+2025-11-05 20:09:30,585 - __main__ - INFO - [main.startup_event:640] - 成功加载 5446 只A股股票代码
+2025-11-05 20:09:30,586 - __main__ - INFO - [main.start_scheduled_updates:586] - 配置股票数据定时更新任务...
+2025-11-05 20:09:30,587 - __main__ - INFO - [main.start_scheduled_updates:590] - - 已配置：每天09:00（开盘前）更新所有A股股票数据
+2025-11-05 20:09:30,588 - __main__ - INFO - [main.start_scheduled_updates:595] - - 已配置：交易时段每2小时更新一次所有A股股票数据
+2025-11-05 20:09:30,589 - __main__ - INFO - [main.start_scheduled_updates:599] - - 已配置：每天15:45（收盘后）更新所有A股股票数据
+2025-11-05 20:09:30,590 - __main__ - INFO - [main.run_scheduler:603] - 定时任务调度器已启动
+2025-11-05 20:09:30,591 - __main__ - INFO - [main.startup_event:649] - 股票分析API服务启动完成
+2025-11-06 06:36:14,607 - __main__ - INFO - [main.<module>:24] - Project root directory: E:\workspace\myquantworld
+2025-11-06 06:36:14,608 - __main__ - INFO - [main.<module>:25] - Project root is in Python path: True
+2025-11-06 06:36:18,979 - __main__ - INFO - [main.startup_event:630] - 股票分析API服务启动中...
+2025-11-06 06:36:18,980 - __main__ - INFO - [main.startup_event:634] - 正在初始化加载所有A股股票代码...
+2025-11-06 06:36:40,015 - __main__ - INFO - [main.startup_event:640] - 成功加载 5447 只A股股票代码
+2025-11-06 06:36:40,016 - __main__ - INFO - [main.start_scheduled_updates:586] - 配置股票数据定时更新任务...
+2025-11-06 06:36:40,017 - __main__ - INFO - [main.start_scheduled_updates:590] - - 已配置：每天09:00（开盘前）更新所有A股股票数据
+2025-11-06 06:36:40,018 - __main__ - INFO - [main.start_scheduled_updates:595] - - 已配置：交易时段每2小时更新一次所有A股股票数据
+2025-11-06 06:36:40,019 - __main__ - INFO - [main.start_scheduled_updates:599] - - 已配置：每天15:45（收盘后）更新所有A股股票数据
+2025-11-06 06:36:40,020 - __main__ - INFO - [main.run_scheduler:603] - 定时任务调度器已启动
+2025-11-06 06:36:40,021 - __main__ - INFO - [main.startup_event:649] - 股票分析API服务启动完成
+2025-11-06 06:36:50,140 - __main__ - INFO - [main.update_all_stocks_data:293] - 开始获取所有A股股票代码...
+2025-11-06 06:36:50,142 - __main__ - INFO - [main.update_all_stocks_data:304] - 成功获取 5447 只A股股票代码，开始进行全量更新
+2025-11-06 06:36:50,144 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1/5447 (0.0%)
+2025-11-06 06:39:10,524 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 101/5447 (1.9%)
+2025-11-06 06:42:04,410 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 201/5447 (3.7%)
+2025-11-06 06:44:57,726 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 301/5447 (5.5%)
+2025-11-06 06:48:52,787 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 401/5447 (7.4%)
+2025-11-06 06:52:41,719 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 501/5447 (9.2%)
+2025-11-06 06:56:21,675 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 601/5447 (11.0%)
+2025-11-06 07:00:12,189 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 701/5447 (12.9%)
+2025-11-06 07:03:55,523 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 801/5447 (14.7%)
+2025-11-06 07:07:41,685 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 901/5447 (16.5%)
+2025-11-06 07:11:23,035 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1001/5447 (18.4%)
+2025-11-06 07:15:07,147 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1101/5447 (20.2%)
+2025-11-06 07:18:52,846 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1201/5447 (22.0%)
+2025-11-06 07:22:52,017 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1301/5447 (23.9%)
+2025-11-06 07:27:30,976 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1401/5447 (25.7%)
+2025-11-06 07:31:45,049 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1501/5447 (27.6%)
+2025-11-06 07:35:36,178 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1601/5447 (29.4%)
+2025-11-06 07:39:40,135 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1701/5447 (31.2%)
+2025-11-06 07:44:03,325 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1801/5447 (33.1%)
+2025-11-06 07:49:30,008 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1901/5447 (34.9%)
+2025-11-06 07:54:18,124 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 2001/5447 (36.7%)
+2025-11-06 07:58:39,476 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 2101/5447 (38.6%)
+2025-11-06 08:03:31,057 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 2201/5447 (40.4%)
+2025-11-06 08:08:05,313 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 2301/5447 (42.2%)
+2025-11-06 08:12:42,841 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 2401/5447 (44.1%)
+2025-11-06 08:17:12,483 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 2501/5447 (45.9%)
+2025-11-06 08:21:34,092 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 2601/5447 (47.8%)
+2025-11-06 08:25:47,794 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 2701/5447 (49.6%)
+2025-11-06 08:29:59,960 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 2801/5447 (51.4%)
+2025-11-06 08:34:18,884 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 2901/5447 (53.3%)
+2025-11-06 08:39:01,937 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 3001/5447 (55.1%)
+2025-11-06 08:43:49,723 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 3101/5447 (56.9%)
+2025-11-06 08:48:12,446 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 3201/5447 (58.8%)
+2025-11-06 08:52:49,346 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 3301/5447 (60.6%)
+2025-11-06 08:55:02,428 - __main__ - INFO - [main.<module>:24] - Project root directory: E:\workspace\myquantworld
+2025-11-06 08:55:02,429 - __main__ - INFO - [main.<module>:25] - Project root is in Python path: True
+2025-11-06 08:55:06,457 - __main__ - INFO - [main.startup_event:631] - 股票分析API服务启动中...
+2025-11-06 08:55:06,458 - __main__ - INFO - [main.startup_event:635] - 正在初始化加载所有A股股票代码...
+2025-11-06 08:55:28,595 - __main__ - INFO - [main.startup_event:641] - 成功加载 5447 只A股股票代码
+2025-11-06 08:55:28,596 - __main__ - INFO - [main.start_scheduled_updates:587] - 配置股票数据定时更新任务...
+2025-11-06 08:55:28,598 - __main__ - INFO - [main.start_scheduled_updates:591] - - 已配置：每天09:00（开盘前）更新所有A股股票数据
+2025-11-06 08:55:28,600 - __main__ - INFO - [main.start_scheduled_updates:596] - - 已配置：交易时段每2小时更新一次所有A股股票数据
+2025-11-06 08:55:28,602 - __main__ - INFO - [main.start_scheduled_updates:600] - - 已配置：每天15:45（收盘后）更新所有A股股票数据
+2025-11-06 08:55:28,604 - __main__ - INFO - [main.run_scheduler:604] - 定时任务调度器已启动
+2025-11-06 08:55:28,604 - __main__ - INFO - [main.startup_event:650] - 股票分析API服务启动完成
+2025-11-06 08:55:35,889 - __main__ - INFO - [main.update_all_stocks_data:293] - 开始获取所有A股股票代码...
+2025-11-06 08:55:35,890 - __main__ - INFO - [main.update_all_stocks_data:304] - 成功获取 5447 只A股股票代码，开始进行全量更新
+2025-11-06 08:55:35,891 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 1/5447 (0.0%)
+2025-11-06 08:59:04,862 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 101/5447 (1.9%)
+2025-11-06 09:00:28,643 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-133' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-133' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:01:28,672 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-160' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-160' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:02:28,691 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-191' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-191' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:03:28,706 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-222' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-222' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:04:28,725 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-259' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-259' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:04:40,608 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 201/5447 (3.7%)
+2025-11-06 09:05:28,749 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-286' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-286' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:06:28,766 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-313' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-313' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:07:28,790 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-340' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-340' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:08:28,817 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-367' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-367' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:09:28,847 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-396' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-396' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:10:28,877 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-425' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-425' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:11:28,894 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-454' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-454' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:12:17,158 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 301/5447 (5.5%)
+2025-11-06 09:12:28,917 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-481' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-481' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:13:28,948 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-510' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-510' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:14:28,960 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-537' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-537' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:15:28,978 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-564' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-564' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:16:28,991 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-593' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-593' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:17:29,004 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-620' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-620' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:18:29,014 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-649' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-649' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:19:29,027 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-678' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-678' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:20:11,734 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 401/5447 (7.4%)
+2025-11-06 09:20:29,043 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-707' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-707' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:21:29,063 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-734' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-734' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:22:29,074 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-763' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-763' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:23:29,100 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-792' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-792' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:24:29,128 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-819' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-819' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:25:29,159 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-844' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-844' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:26:29,179 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-869' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-869' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:27:29,202 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-894' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-894' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:28:18,736 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 501/5447 (9.2%)
+2025-11-06 09:28:29,226 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-921' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-921' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:29:29,245 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-952' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-952' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:30:29,271 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-979' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-979' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:31:29,297 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1008' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1008' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:32:29,313 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1033' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1033' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:33:29,337 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1060' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1060' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:34:29,396 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1087' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1087' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:35:28,042 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 601/5447 (11.0%)
+2025-11-06 09:35:29,433 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1116' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1116' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:36:29,461 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1149' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1149' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:37:29,481 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1184' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1184' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:38:29,501 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1211' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1211' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:39:29,513 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1238' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1238' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:40:29,538 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1263' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1263' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:41:29,553 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1290' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1290' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:42:29,565 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1331' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1331' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:42:38,277 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 701/5447 (12.9%)
+2025-11-06 09:43:29,590 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1354' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1354' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:44:29,616 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1381' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1381' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:45:29,636 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1408' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1408' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:46:29,658 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1433' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1433' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:47:29,683 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1462' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1462' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:48:29,708 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1487' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1487' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:49:29,735 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1512' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1512' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:50:29,758 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1541' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1541' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:50:55,656 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 801/5447 (14.7%)
+2025-11-06 09:51:29,783 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1566' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1566' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:52:29,805 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1593' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1593' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:53:29,829 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1618' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1618' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:54:29,849 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1643' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1643' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:55:29,861 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1670' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1670' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:56:29,879 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1701' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1701' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:57:29,891 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1726' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1726' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:58:29,924 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1755' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1755' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+2025-11-06 09:58:43,710 - __main__ - INFO - [main.update_all_stocks_data:316] - 更新进度: 901/5447 (16.5%)
+2025-11-06 09:59:29,937 - __main__ - ERROR - [main.run_scheduler:610] - 定时任务调度器发生错误: Task <Task pending name='Task-1778' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
+Traceback (most recent call last):
+  File "E:\workspace\myquantworld\backend\main.py", line 607, in run_scheduler
+    schedule.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+  File "E:\workspace\myquantworld\backend\main.py", line 590, in <lambda>
+    schedule.every().day.at("09:00").do(lambda: asyncio.run(update_all_stocks_data()))
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "E:\workspace\myquantworld\backend\main.py", line 291, in update_all_stocks_data
+    async with update_lock:
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\locks.py", line 120, in acquire
+    await fut
+RuntimeError: Task <Task pending name='Task-1778' coro=<update_all_stocks_data() running at E:\workspace\myquantworld\backend\main.py:291> cb=[_run_until_complete_cb() at C:\Users\Administrator\anaconda3\envs\myquantworld\lib\asyncio\base_events.py:184]> got Future <Future pending> attached to a different loop
