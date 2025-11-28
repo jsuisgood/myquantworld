@@ -1,6 +1,6 @@
 # MyQuantWorld - 股票分析系统
 
-基于akshare和POLAR的股票分析应用，使用PostgreSQL存储数据，Streamlit构建前端界面，FastAPI提供后端API服务。
+基于tushare和POLAR的股票分析应用，使用PostgreSQL存储数据，Streamlit构建前端界面，FastAPI提供后端API服务。
 
 ## 项目架构
 
@@ -15,7 +15,8 @@ myquantworld/
 │   ├── connection.py    # 数据库连接管理
 │   └── models.py        # 数据库模型定义
 ├── data_fetching/       # 数据获取模块
-│   └── akshare_client.py # Akshare客户端
+│   ├── tushare_client.py # TuShare客户端
+│   └── data_source_factory.py # 数据源工厂
 ├── data_processing/     # 数据处理模块
 │   └── data_processor.py # 数据处理工具
 ├── data_storage/        # 数据存储模块
@@ -30,7 +31,7 @@ myquantworld/
 
 ## 功能特性
 
-- **数据获取**：通过akshare获取股票历史数据、基本面数据和宏观经济数据
+- **数据获取**：通过tushare获取股票历史数据、基本面数据和宏观经济数据
 - **数据存储**：使用PostgreSQL存储数据，支持批量操作和查询优化
 - **技术分析**：计算各种技术指标（MA、MACD、RSI、布林带、KDJ等）
 - **POLAR分析**：集成POLAR进行模式识别和价格预测
@@ -43,7 +44,7 @@ myquantworld/
 - **前端**：Streamlit, Plotly
 - **数据库**：PostgreSQL
 - **数据处理**：pandas, numpy
-- **分析工具**：akshare, polar, scikit-learn
+- **分析工具**：tushare, polar, scikit-learn
 
 ## 快速开始
 
@@ -66,7 +67,7 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-编辑`.env`文件，设置数据库连接信息：
+编辑`.env`文件，设置数据库连接信息和TuShare API Key：
 
 ```
 DB_HOST=localhost
@@ -74,6 +75,7 @@ DB_PORT=5432
 DB_NAME=myquantworld
 DB_USER=postgres
 DB_PASSWORD=postgres
+TUSHARE_API_KEY=your_api_key_here
 ```
 
 ### 4. 启动应用
@@ -118,7 +120,8 @@ python main.py
 
 1. 确保PostgreSQL数据库已正确安装并运行
 2. 首次运行时，系统会自动创建数据库表结构
-3. 获取数据时可能受到API调用频率限制，请合理使用
+3. TuShare需要有效的API Key才能获取数据，免费用户有调用次数限制
+4. 获取数据时可能受到API调用频率限制，请合理使用
 4. POLAR库可能需要单独安装，请按照官方文档进行配置
 
 ## 扩展建议

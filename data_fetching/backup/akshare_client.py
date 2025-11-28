@@ -386,3 +386,173 @@ class AkshareClient:
         except Exception as e:
             print(f"获取股票行业分类失败: {str(e)}")
             return pd.DataFrame()
+    
+    def get_hot_sectors(self) -> pd.DataFrame:
+        """获取热点行业板块数据，根据涨幅排序
+        
+        Returns:
+            包含板块名称、涨幅、领涨股等信息的DataFrame
+        """
+        try:
+            if AK_SHARE_AVAILABLE:
+                # 使用akshare获取行业板块实时数据
+                # 尝试使用stock_sector_spot函数代替不存在的stock_board_industry_spot
+                try:
+                    df = ak.stock_sector_spot()
+                except AttributeError:
+                    # 如果stock_sector_spot也不存在，尝试其他可能的函数名
+                    try:
+                        df = ak.stock_board_industry_name_em()
+                    except AttributeError:
+                        # 如果仍然失败，使用模拟数据
+                        print("akshare中找不到合适的行业板块数据函数，使用模拟数据")
+                        return self._get_mock_hot_sectors()
+                
+                if isinstance(df, pd.DataFrame) and not df.empty:
+                    # 按涨幅排序，降序排列
+                    if '涨跌幅' in df.columns:
+                        df = df.sort_values('涨跌幅', ascending=False)
+                    # 重命名列以符合系统命名规范
+                    column_mapping = {
+                        '板块名称': 'sector_name',
+                        '涨跌幅': 'change_percent',
+                        '领涨股': 'leading_stock',
+                        '最新价': 'latest_price',
+                        '开盘价': 'open_price',
+                        '最高价': 'high_price',
+                        '最低价': 'low_price',
+                        '成交量': 'volume',
+                        '成交额': 'amount'
+                    }
+                    
+                    for cn_col, en_col in column_mapping.items():
+                        if cn_col in df.columns:
+                            df.rename(columns={cn_col: en_col}, inplace=True)
+                    
+                    return df
+                else:
+                    print("获取行业板块数据失败：返回空数据")
+                    return pd.DataFrame()
+            else:
+                # 返回模拟热点板块数据
+                print("akshare不可用，使用模拟热点板块数据")
+                return self._get_mock_hot_sectors()
+        except Exception as e:
+            print(f"获取热点行业板块失败: {str(e)}")
+            # 返回模拟数据作为备选
+            return self._get_mock_hot_sectors()
+    
+    def get_concept_sectors(self) -> pd.DataFrame:
+        """获取概念板块数据
+        
+        Returns:
+            包含概念板块名称、代码等信息的DataFrame
+        """
+        try:
+            if AK_SHARE_AVAILABLE:
+                max_retries = 3
+                retry_count = 0
+                
+                while retry_count < max_retries:
+                    try:
+                        # 使用akshare获取东方财富概念板块数据
+                        df = ak.stock_board_concept_name_em()
+                        if isinstance(df, pd.DataFrame) and not df.empty:
+                            return df
+                        else:
+                            print("获取概念板块数据失败：返回空数据")
+                            break
+                    except (ConnectionError, TimeoutError) as network_error:
+                        retry_count += 1
+                        if retry_count < max_retries:
+                            print(f"网络连接错误，{retry_count}/3 重试中: {str(network_error)}")
+                            import time
+                            time.sleep(1)  # 等待1秒后重试
+                        else:
+                            print(f"获取概念板块数据失败，已重试{max_retries}次: {str(network_error)}")
+                    except Exception as e:
+                        print(f"获取概念板块数据失败: {str(e)}")
+                        break
+                
+                # 返回模拟概念板块数据
+                print("使用模拟概念板块数据")
+                return self._get_mock_concept_sectors()
+            else:
+                # akshare不可用时返回模拟数据
+                print("akshare不可用，使用模拟概念板块数据")
+                return self._get_mock_concept_sectors()
+        except Exception as e:
+            print(f"获取概念板块数据失败: {str(e)}")
+            # 返回模拟数据作为备选
+            return self._get_mock_concept_sectors()
+    
+    def _get_mock_concept_sectors(self) -> pd.DataFrame:
+        """提供模拟的概念板块数据
+        
+        Returns:
+            包含模拟概念板块数据的DataFrame
+        """
+        mock_data = {
+            '板块代码': ['BK0577', 'BK0980', 'BK0636', 'BK1024', 'BK0642'],
+            '板块名称': ['新能源汽车', '光伏概念', '数字货币', 'ChatGPT', '医疗器械']
+        }
+        return pd.DataFrame(mock_data)
+    
+    def _get_mock_hot_sectors(self) -> pd.DataFrame:
+        """提供模拟的热点板块数据
+        
+        Returns:
+            包含模拟热点板块数据的DataFrame
+        """
+        mock_data = {
+            'sector_name': ['人工智能', '新能源', '医药生物', '半导体', '金融服务'],
+            'change_percent': [3.2, 2.8, 1.5, 4.1, 0.9],
+            'leading_stock': ['科大讯飞', '宁德时代', '恒瑞医药', '中芯国际', '招商银行'],
+            'latest_price': [65.21, 189.56, 45.78, 52.34, 38.91],
+            'volume': [123456789, 98765432, 76543210, 87654321, 65432109],
+            'amount': [8145678901, 18695678901, 3502789012, 4584567890, 2545678901]
+        }
+        return pd.DataFrame(mock_data)
+    
+    def get_sector_stocks(self, sector_code: str) -> pd.DataFrame:
+        """获取指定板块的股票列表
+        
+        Args:
+            sector_code: 板块代码
+            
+        Returns:
+            包含板块内股票信息的DataFrame
+        """
+        try:
+            if AK_SHARE_AVAILABLE:
+                # 使用akshare获取板块内股票列表
+                # 不同版本的akshare可能有不同的接口，尝试使用常见的接口
+                try:
+                    df = ak.stock_board_concept_cons_em(symbol=sector_code)
+                except:
+                    # 尝试另一种接口
+                    try:
+                        df = ak.stock_board_industry_cons_ths(symbol=sector_code)
+                    except:
+                        return pd.DataFrame()
+                
+                if isinstance(df, pd.DataFrame) and not df.empty:
+                    return df
+                else:
+                    return pd.DataFrame()
+            else:
+                # 返回模拟板块股票数据
+                print("akshare不可用，使用模拟板块股票数据")
+                mock_data = {
+                    '代码': ['000001', '000002', '600000', '600036', '000858'],
+                    '名称': ['平安银行', '万科A', '浦发银行', '招商银行', '五粮液']
+                }
+                return pd.DataFrame(mock_data)
+        except Exception as e:
+            print(f"获取板块股票列表失败: {str(e)}")
+            # 返回模拟数据作为备选
+            mock_data = {
+                '代码': ['000001', '000002', '600000', '600036', '000858'],
+                '名称': ['平安银行', '万科A', '浦发银行', '招商银行', '五粮液']
+            }
+            return pd.DataFrame(mock_data)

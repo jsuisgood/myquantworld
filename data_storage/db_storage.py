@@ -2,7 +2,7 @@ from typing import List, Dict, Any, Union
 import pandas as pd
 from datetime import datetime
 from sqlalchemy.orm import Session
-from database.models import StockBasicInfo, StockDailyData, StockFinancialIndicators, Stock
+from database.models import StockBasicInfo, StockDailyData, StockFinancialIndicators, Stock, TushareStockBasicInfo, TushareStockDailyData, TushareStockFinancialIndicators
 from database.connection import engine, Base
 
 
@@ -13,6 +13,33 @@ class DBStorage:
         """初始化数据库存储类"""
         # 确保数据库表已创建
         Base.metadata.create_all(bind=engine)
+    
+    def get_last_tushare_stock_update_date(self, stock_code: str):
+        """获取指定股票在TushareStockDailyData表中的最新交易日期
+        
+        Args:
+            stock_code: 股票代码
+            
+        Returns:
+            str: 最新交易日期，格式为'YYYYMMDD'，如果没有数据则返回None
+        """
+        from database.connection import SessionLocal
+        
+        db = SessionLocal()
+        try:
+            # 查询该股票的最新交易日期
+            latest_data = db.query(TushareStockDailyData).filter(
+                TushareStockDailyData.stock_code == stock_code
+            ).order_by(TushareStockDailyData.trade_date.desc()).first()
+            
+            if latest_data:
+                return latest_data.trade_date.strftime('%Y%m%d')
+            return None
+        except Exception as e:
+            print(f"获取股票{stock_code}最新更新日期失败: {e}")
+            return None
+        finally:
+            db.close()
     
     def save_stock_basic_info(self, db: Session, stock_data: Union[List[Dict[str, Any]], pd.DataFrame]):
         """保存股票基本信息
@@ -433,4 +460,217 @@ class DBStorage:
         except Exception as e:
             db.rollback()
             print(f"批量保存日线数据失败: {e}")
+            return False
+    
+    # TuShare专用数据存储方法
+    def save_tushare_stock_basic_info(self, db: Session, stock_data: Union[List[Dict[str, Any]], pd.DataFrame]):
+        """保存TuShare股票基本信息
+        
+        Args:
+            db: 数据库会话
+            stock_data: 股票基本信息，可以是字典列表或pandas DataFrame
+            
+        Returns:
+            保存是否成功
+        """
+        try:
+            # 处理不同类型的输入数据
+            items = []
+            if isinstance(stock_data, pd.DataFrame):
+                # 检查DataFrame是否为空
+                if stock_data.empty:
+                    return True
+                # 转换DataFrame为字典列表
+                items = stock_data.to_dict('records')
+            else:
+                # 直接使用列表
+                items = stock_data
+            
+            # 批量保存股票基本信息
+            for item in items:
+                # 尝试查找现有记录
+                existing_stock = db.query(TushareStockBasicInfo).filter(
+                    TushareStockBasicInfo.stock_code == item['ts_code']).first()
+                
+                if existing_stock:
+                    # 更新现有记录
+                    existing_stock.stock_name = item.get('name', existing_stock.stock_name)
+                    existing_stock.market = item.get('market', existing_stock.market)
+                    existing_stock.industry = item.get('industry', existing_stock.industry)
+                    existing_stock.area = item.get('area', existing_stock.area)
+                    existing_stock.list_date = item.get('list_date', existing_stock.list_date)
+                else:
+                    # 创建新记录
+                    stock = TushareStockBasicInfo(
+                        stock_code=item['ts_code'],
+                        stock_name=item.get('name', ''),
+                        market=item.get('market', ''),
+                        industry=item.get('industry', ''),
+                        area=item.get('area', ''),
+                        list_date=item.get('list_date', None),
+                        source='tushare'
+                    )
+                    db.add(stock)
+            
+            db.commit()
+            return True
+        except Exception as e:
+            db.rollback()
+            print(f"保存TuShare股票基本信息失败: {e}")
+            return False
+    
+    def save_tushare_stock_daily_data(self, db: Session, stock_code: str, daily_data: Union[List[Dict[str, Any]], pd.DataFrame]):
+        """保存TuShare股票日线数据
+        
+        Args:
+            db: 数据库会话
+            stock_code: 股票代码
+            daily_data: 日线数据，可以是字典列表或pandas DataFrame
+            
+        Returns:
+            保存是否成功
+        """
+        try:
+            # 处理不同类型的输入数据
+            items = []
+            if isinstance(daily_data, pd.DataFrame):
+                # 检查DataFrame是否为空
+                if daily_data.empty:
+                    return True
+                # 转换DataFrame为字典列表
+                items = daily_data.to_dict('records')
+            else:
+                # 直接使用列表
+                items = daily_data
+            
+            # 批量保存日线数据
+            for item in items:
+                # 确保日期格式正确
+                trade_date = item['trade_date']
+                if isinstance(trade_date, str):
+                    trade_date = datetime.strptime(trade_date, '%Y%m%d').date()
+                
+                # 尝试查找现有记录
+                existing_data = db.query(TushareStockDailyData).filter(
+                    TushareStockDailyData.stock_code == stock_code,
+                    TushareStockDailyData.trade_date == trade_date
+                ).first()
+                
+                if existing_data:
+                    # 更新现有记录
+                    existing_data.open_price = float(item.get('open', existing_data.open_price))
+                    existing_data.high_price = float(item.get('high', existing_data.high_price))
+                    existing_data.low_price = float(item.get('low', existing_data.low_price))
+                    existing_data.close_price = float(item.get('close', existing_data.close_price))
+                    existing_data.volume = float(item.get('vol', existing_data.volume))
+                    existing_data.amount = float(item.get('amount', existing_data.amount))
+                    existing_data.change_percent = float(item.get('pct_chg', existing_data.change_percent))
+                    existing_data.turnover_rate = float(item.get('turnover_rate', existing_data.turnover_rate))
+                    existing_data.pe = float(item.get('pe', existing_data.pe))
+                    existing_data.pb = float(item.get('pb', existing_data.pb))
+                    existing_data.ps = float(item.get('ps', existing_data.ps))
+                    existing_data.dv_ratio = float(item.get('dv_ratio', existing_data.dv_ratio))
+                else:
+                    # 创建新记录
+                    daily = TushareStockDailyData(
+                        stock_code=stock_code,
+                        trade_date=trade_date,
+                        open_price=float(item.get('open', 0)),
+                        high_price=float(item.get('high', 0)),
+                        low_price=float(item.get('low', 0)),
+                        close_price=float(item.get('close', 0)),
+                        volume=float(item.get('vol', 0)),
+                        amount=float(item.get('amount', 0)),
+                        change_percent=float(item.get('pct_chg', 0)),
+                        turnover_rate=float(item.get('turnover_rate', 0)),
+                        pe=float(item.get('pe', 0)),
+                        pb=float(item.get('pb', 0)),
+                        ps=float(item.get('ps', 0)),
+                        dv_ratio=float(item.get('dv_ratio', 0))
+                    )
+                    db.add(daily)
+            
+            db.commit()
+            return True
+        except Exception as e:
+            db.rollback()
+            print(f"保存TuShare股票{stock_code}日线数据失败: {e}")
+            return False
+    
+    def save_tushare_stock_financial_indicators(self, db: Session, stock_code: str, financial_data: Union[List[Dict[str, Any]], pd.DataFrame]):
+        """保存TuShare股票财务指标
+        
+        Args:
+            db: 数据库会话
+            stock_code: 股票代码
+            financial_data: 财务指标数据，可以是字典列表或pandas DataFrame
+            
+        Returns:
+            保存是否成功
+        """
+        try:
+            # 处理不同类型的输入数据
+            items = []
+            if isinstance(financial_data, pd.DataFrame):
+                # 检查DataFrame是否为空
+                if financial_data.empty:
+                    return True
+                # 转换DataFrame为字典列表
+                items = financial_data.to_dict('records')
+            else:
+                # 直接使用列表
+                items = financial_data
+            
+            # 批量保存财务指标
+            for item in items:
+                # 确保日期格式正确
+                report_date = item['end_date']
+                if isinstance(report_date, str):
+                    report_date = datetime.strptime(report_date, '%Y%m%d').date()
+                
+                # 尝试查找现有记录
+                existing_data = db.query(TushareStockFinancialIndicators).filter(
+                    TushareStockFinancialIndicators.stock_code == stock_code,
+                    TushareStockFinancialIndicators.report_date == report_date
+                ).first()
+                
+                if existing_data:
+                    # 更新现有记录
+                    existing_data.pe = float(item.get('pe', existing_data.pe))
+                    existing_data.pb = float(item.get('pb', existing_data.pb))
+                    existing_data.ps = float(item.get('ps', existing_data.ps))
+                    existing_data.roe = float(item.get('roe', existing_data.roe))
+                    existing_data.revenue = float(item.get('revenue', existing_data.revenue))
+                    existing_data.profit = float(item.get('profit', existing_data.profit))
+                    existing_data.profit_growth_rate = float(item.get('profit_growth_rate', existing_data.profit_growth_rate))
+                    existing_data.revenue_growth_rate = float(item.get('revenue_growth_rate', existing_data.revenue_growth_rate))
+                    existing_data.debt_ratio = float(item.get('debt_ratio', existing_data.debt_ratio))
+                    existing_data.operating_cash_flow = float(item.get('operating_cash_flow', existing_data.operating_cash_flow))
+                    existing_data.total_assets = float(item.get('total_assets', existing_data.total_assets))
+                    existing_data.total_liabilities = float(item.get('total_liabilities', existing_data.total_liabilities))
+                else:
+                    # 创建新记录
+                    indicator = TushareStockFinancialIndicators(
+                        stock_code=stock_code,
+                        report_date=report_date,
+                        pe=float(item.get('pe', 0)),
+                        pb=float(item.get('pb', 0)),
+                        ps=float(item.get('ps', 0)),
+                        roe=float(item.get('roe', 0)),
+                        revenue=float(item.get('revenue', 0)),
+                        profit=float(item.get('profit', 0)),
+                        profit_growth_rate=float(item.get('profit_growth_rate', 0)),
+                        revenue_growth_rate=float(item.get('revenue_growth_rate', 0)),
+                        debt_ratio=float(item.get('debt_ratio', 0)),
+                        operating_cash_flow=float(item.get('operating_cash_flow', 0)),
+                        total_assets=float(item.get('total_assets', 0)),
+                        total_liabilities=float(item.get('total_liabilities', 0))
+                    )
+                    db.add(indicator)
+            
+            db.commit()
+            return True
+        except Exception as e:
+            db.rollback()
+            print(f"保存TuShare股票{stock_code}财务指标失败: {e}")
             return False

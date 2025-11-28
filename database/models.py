@@ -194,3 +194,84 @@ class MarketIndex(Base):
     
     def __repr__(self):
         return f"<MarketIndex(index_code={self.index_code}, trade_date={self.trade_date}, close_price={self.close_price})>"
+
+
+# TuShare专用数据表
+class TushareStockBasicInfo(Base):
+    """TuShare股票基本信息表"""
+    __tablename__ = 'tushare_stock_basic_info'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    stock_code = Column(String(20), unique=True, nullable=False, index=True)
+    stock_name = Column(String(100), nullable=False)
+    industry = Column(String(100))
+    area = Column(String(50))
+    market = Column(String(20))  # 主板、创业板、科创板等
+    list_date = Column(Date)     # 上市日期
+    status = Column(String(20), default='正常')
+    source = Column(String(20), default='tushare')  # 数据源标记
+    
+    # 关系
+    daily_data = relationship("TushareStockDailyData", back_populates="stock_info")
+    financial_indicators = relationship("TushareStockFinancialIndicators", back_populates="stock_info")
+    
+    def __repr__(self):
+        return f"<TushareStockBasicInfo(stock_code={self.stock_code}, stock_name={self.stock_name})>"
+
+
+class TushareStockDailyData(Base):
+    """TuShare股票日线数据表"""
+    __tablename__ = 'tushare_stock_daily_data'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    stock_code = Column(String(20), ForeignKey('tushare_stock_basic_info.stock_code'), nullable=False, index=True)
+    trade_date = Column(Date, nullable=False, index=True)
+    open_price = Column(Float)
+    high_price = Column(Float)
+    low_price = Column(Float)
+    close_price = Column(Float)
+    volume = Column(Float)
+    amount = Column(Float)
+    change_percent = Column(Float)
+    turnover_rate = Column(Float)
+    pe = Column(Float)          # 市盈率
+    pb = Column(Float)          # 市净率
+    ps = Column(Float)          # 市销率
+    dv_ratio = Column(Float)    # 股息率
+    created_at = Column(DateTime, default=datetime.now)
+    updated_at = Column(DateTime, default=datetime.now, onupdate=datetime.now)
+    
+    # 关系
+    stock_info = relationship("TushareStockBasicInfo", back_populates="daily_data")
+    
+    def __repr__(self):
+        return f"<TushareStockDailyData(stock_code={self.stock_code}, trade_date={self.trade_date}, close_price={self.close_price})>"
+
+
+class TushareStockFinancialIndicators(Base):
+    """TuShare股票财务指标表"""
+    __tablename__ = 'tushare_stock_financial_indicators'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    stock_code = Column(String(20), ForeignKey('tushare_stock_basic_info.stock_code'), nullable=False, index=True)
+    report_date = Column(Date, nullable=False, index=True)
+    pe = Column(Float)          # 市盈率
+    pb = Column(Float)          # 市净率
+    ps = Column(Float)          # 市销率
+    roe = Column(Float)         # 净资产收益率
+    revenue = Column(Float)     # 营业收入
+    profit = Column(Float)      # 净利润
+    profit_growth_rate = Column(Float)  # 净利润增长率
+    revenue_growth_rate = Column(Float)  # 营业收入增长率
+    debt_ratio = Column(Float)  # 资产负债率
+    operating_cash_flow = Column(Float)  # 经营现金流
+    total_assets = Column(Float)  # 总资产
+    total_liabilities = Column(Float)  # 总负债
+    created_at = Column(DateTime, default=datetime.now)
+    updated_at = Column(DateTime, default=datetime.now, onupdate=datetime.now)
+    
+    # 关系
+    stock_info = relationship("TushareStockBasicInfo", back_populates="financial_indicators")
+    
+    def __repr__(self):
+        return f"<TushareStockFinancialIndicators(stock_code={self.stock_code}, report_date={self.report_date}, pe={self.pe})>"

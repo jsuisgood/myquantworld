@@ -1,0 +1,16 @@
+{
+  "default_source": "tushare",
+  "akshare": {
+    "timeout": 10,
+    "retry_count": 3
+  },
+  "tushare": {
+    "timeout": 10,
+    "retry_count": 3,
+    "token": "demo_token_for_testing"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": null
+  }
+}
